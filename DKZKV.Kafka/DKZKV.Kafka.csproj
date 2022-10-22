@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <ImplicitUsings>enable</ImplicitUsings>
+
+        <PackageId>DKZKV.Kafka</PackageId>
+        <Title>Confluent.Kafka wrapper</Title>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Serilog" Version="2.11.0" />
+        <PackageReference Include="Confluent.Kafka" Version="1.8.2" />
+
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+        <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
+        <PackageReference Include="Utf8Json" Version="1.3.7" />
+    </ItemGroup>
+    
+</Project>

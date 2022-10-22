@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{A4300852-10A3-4AF2-83FA-397D978326C3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{B62633DD-F086-4BFC-824B-5C929571688A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaSampleService", "KafkaSampleService\KafkaSampleService.csproj", "{82A66744-8450-42E7-A6B9-372C4D33058B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DKZKV.Kafka", "DKZKV.Kafka\DKZKV.Kafka.csproj", "{EC5A5433-DB7D-477D-9168-D047DDD75D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82A66744-8450-42E7-A6B9-372C4D33058B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A66744-8450-42E7-A6B9-372C4D33058B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A66744-8450-42E7-A6B9-372C4D33058B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A66744-8450-42E7-A6B9-372C4D33058B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5A5433-DB7D-477D-9168-D047DDD75D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5A5433-DB7D-477D-9168-D047DDD75D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5A5433-DB7D-477D-9168-D047DDD75D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5A5433-DB7D-477D-9168-D047DDD75D83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82A66744-8450-42E7-A6B9-372C4D33058B} = {B62633DD-F086-4BFC-824B-5C929571688A}
+	EndGlobalSection
+EndGlobal
